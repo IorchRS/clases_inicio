@@ -45,11 +45,8 @@ function obtenerInfo() {
     let telefonoRestaurante;
     
     nombreRestaurante=prompt("dame el nombre del restaurante00");
+    
     restaurant.mostrarNombre(nombreRestaurante);
-
-
-
-
 
     direccionRestaurante=prompt("dame la direccion del restaurante");
      restaurant.mostrarDireccion(direccionRestaurante);
